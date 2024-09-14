@@ -17,5 +17,81 @@ section{
  border-radius: 5px;
  border: 1px solid;
  background-color: var(--secundary-cor);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 2rem;
 }
+
+.boxstopWatch{
+    width: 100%;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid var(--primary-cor);
+    position: relative;
+}
+
+.absolut{
+    flex-basis: 100%; 
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.boxstopWatch p, span{
+   width: 100%;
+   flex-basis: 100%;
+   margin: 0 auto;
+  color: var(--primary-cor);
+   width: 100%;
+   margin: 0 auto;
+   text-align: center; 
+   font-size: 2.2rem;
+   font-weight: 200;
+   letter-spacing: 2px;
+   user-select: none;
+   
+}
+
+.options{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.options .iconswatch{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+    background-color: var(--primary-cor);
+    color: var(--secundary-cor);
+    cursor: pointer;
+    text-wrap: nowrap;
+    
+
+}
+
+.options .iconswatch:hover{
+    transform: scale(1.2);
+}
+
+
+
 
